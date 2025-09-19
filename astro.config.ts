@@ -34,7 +34,12 @@ export default defineConfig({
       include: {
         tabler: ['*'],
         'flat-color-icons': [
+          'share',
+          'idea',
+          'process',
+          'settings',
           'template',
+          'globe-earth',
           'gallery',
           'approval',
           'document',
