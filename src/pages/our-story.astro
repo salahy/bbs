@@ -1,0 +1,53 @@
+---
+import Features2 from '~/components/widgets/Features2.astro';
+import Features3 from '~/components/widgets/Features3.astro';
+import Hero from '~/components/widgets/Hero.astro';
+import Stats from '~/components/widgets/Stats.astro';
+import Steps2 from '~/components/widgets/Steps2.astro';
+import Layout from '~/layouts/PageLayout.astro';
+
+const metadata = {
+  title: 'Our Story',
+};
+---
+
+<Layout metadata={metadata}>
+  <!-- Hero Widget ******************* -->
+
+  <Hero>
+    <Fragment slot="title">
+      Our Story is Built into <br />
+      <span class="text-accent dark:text-white"> Every Product We Make.</span>
+    </Fragment>
+    <Fragment slot="subtitle" class="text-left">
+<p>     Our journey is truly the story of the display stand itself. With over a decade of experience in the industry, we consistently observed that the market's potential was held back by several key factors. The technology was limited, and businesses often didn't fully grasp the crucial role a well-designed stand could play in driving sales and elevating a brand's value.</p>
+<br>
+<p>
+    We knew there had to be a better way.
+
+</p>
+<br>
+<p>
+    This led us to develop a comprehensive solution that addresses these challenges head-on. We started by engineering a display stand built with superior quality and durability, designed to meet the rigorous demands of the modern market.
+
+</p>
+<br>
+<p>
+    But we didn't stop there. We integrated forward-thinking features to ensure our stands meet both the current and future needs of our clients. We carefully considered adaptability, creating a system that is easy to install and use in any location.
+
+</p>
+<br>
+<p>
+    Finally, we focused on its marketing power. By developing a wide range of accessories, our stands are designed to serve both the product and the brand simultaneously, creating a powerful and cohesive promotional tool. We are dedicated to providing a solution that doesn't just display your product, but tells your brand's story of success.
+
+</p>    </Fragment>
+  </Hero>
+
+  </Features2>
+
+  <!-- Features3 Widget ************** -->
+
+
+
+  <!-- Features2 Widget ************** -->
+</Layout>
