@@ -2,15 +2,6 @@
 import Layout from '~/layouts/PageLayout.astro';
 
 import Hero from '~/components/widgets/Hero.astro';
-import Note from '~/components/widgets/Note.astro';
-import Features from '~/components/widgets/Features.astro';
-import Features2 from '~/components/widgets/Features2.astro';
-import Steps from '~/components/widgets/Steps.astro';
-import Content from '~/components/widgets/Content.astro';
-import BlogLatestPosts from '~/components/widgets/BlogLatestPosts.astro';
-import FAQs from '~/components/widgets/FAQs.astro';
-import Stats from '~/components/widgets/Stats.astro';
-import CallToAction from '~/components/widgets/CallToAction.astro';
 import Brands from '~/components/widgets/Brands.astro';
 
 const metadata = {
@@ -23,8 +14,8 @@ const metadata = {
   <!-- Hero Widget ******************* -->
 
   <Hero
-  
-    image={{ src: '~/assets/images/hero-image.png', alt: 'AstroWind Hero Image' }}
+  subtitle='Empowering Every Transaction with Style and Security. Business Based Solutions: Where Your Brand Meets Innovation.'
+    image={{ src: '~/assets/images/hero-image.jpg', alt: 'AstroWind Hero Image' }}
   >
     <Fragment slot="title">
      Business Based Solutions
@@ -46,6 +37,10 @@ const metadata = {
     subtitle="At BBS, we believe in the power of collaboration to drive innovation and create exceptional experiences."
     icons={[]}
     images={[
+      {
+        src: '~/assets/images/logos/pmi.png',
+        alt: 'PMI',
+      },
       {
         src: '~/assets/images/logos/arabbank.jpg',
         alt: 'Arab Bank',
