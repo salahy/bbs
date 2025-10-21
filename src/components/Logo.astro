@@ -2,10 +2,7 @@
 import Image from '~/components/common/Image.astro';
 ---
 
-<div class="flex items-center space-x-2">
-  <Image
-    src="~/assets/images/logo.png"
-    alt="Logo"
-    width={50}
-  /> 
+<div  class="flex items-center space-x-2">
+  <Image src="~/assets/images/logo.jpg" alt="Logo" class="max-h-12 block dark:hidden" width={50} loading="eager" />
+  <Image src="~/assets/images/logo_dark.png" alt="Logo" class="max-h-12 hidden dark:block" width={50} loading="eager" />
 </div>
